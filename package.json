@@ -1,0 +1,22 @@
+{
+  "name": "planterapp",
+  "version": "1.0.0",
+  "description": "planter",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha ./test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mihkl/PlanterAppi.git"
+  },
+  "keywords": [
+    "planter"
+  ],
+  "author": "mihkel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mihkl/PlanterAppi/issues"
+  },
+  "homepage": "https://github.com/mihkl/PlanterAppi#readme"
+}
