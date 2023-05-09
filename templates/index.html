@@ -1,0 +1,43 @@
+<!doctype html>
+<html class="bg-neutral">
+  <head>
+  	<title>Camera</title>    
+   {% include "links.html" %}
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Urbanist&display=swap');
+    body {
+        font-family: 'Urbanist', sans-serif;;
+      }
+</style>
+  </head>
+  <body data-theme="lemonade" class="static flex flex-col h-screen overflow-hidden">
+    <div class="heleroheline rounded-b-lg flex grow bg-lime-50 justify-center items-center" style="background-color:#CCE4CD; border-radius: 0px 0px 50px 50px">
+    <img src="/static/Logos 3.svg">
+    </div>
+    <div class="flex-1 flex flex-col items-center space-y-5">
+
+
+      <a href="/login">
+    <button class="btn rounded-full text-white border-0 mt-20 btn-wide" style="background-color:#8DCF90;">Sign In</button>
+</a>
+      
+      <p class="font-semibold ...">or</p>
+
+      <a href="/signup">
+      <button href="/signup" class="btn rounded-full text-white border-0  btn-wide" style="background-color:#8DCF90;">Sign Up</button>
+<a/>
+
+      
+    </div>
+     <footer class="flex grow footer footer-center bg-white text-base-content justify-center" style="gap: 0">
+  <div class="flex grow justify-center space-x-2">
+    <a href="/picture" class="text-xl">Help</a>
+    <a class="text-xl" >About</a>
+    <a class="text-xl">Terms</a>
+  </div>
+</footer>
+     
+    
+  </body>
+  <script type="text/javascript" src="/static/script.js"></script>
+</html>
